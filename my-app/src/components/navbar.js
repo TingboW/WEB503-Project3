@@ -38,13 +38,6 @@ class Navbar extends Component {
                 <header className="navbar App-header" id="nav-container">
                 <div className="col-4 col-mr-auto">
                     <div id="top-filler"></div>
-                        <img
-                            src="https://user-images.githubusercontent.com/10260230/93533501-53aa0d80-f943-11ea-90d1-e6e70eca2e29.gif"
-                            style={logo} 
-                            className="" 
-                            alt="logo" 
-                        />
-                        <h1 className="App-title">My APP</h1>
                     </div>
                     
                     <div className="col-4 nav" >

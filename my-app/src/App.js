@@ -7,6 +7,8 @@ import Form from "./components/Form";
 import Section from "./components/Section";
 import List from "./components/List";
 
+import NavApp from './NavApp';
+
 const appTitle = "My Todo List";
 
 const App = () => {
@@ -37,13 +39,13 @@ const App = () => {
 
     return (
         <div className="container">
+
             <Section>
             <div class="heading">
                 <img class="heading__img" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/756881/laptop.svg" />
                 <h1 class="heading__title">{appTitle}</h1>
             </div>
             </Section>
-
             <Section>
                 <Form addTodo={addTodo} />
             </Section>

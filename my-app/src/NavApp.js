@@ -5,10 +5,10 @@ import { Routes,Route } from 'react-router-dom'
 import Signup from './components/sign-up'
 import LoginForm from './components/login-form'
 import Navbar from './components/navbar'
-import Home from '../../my-app/src/components/home'
+import Home from './components/home'
 import Member from './components/member'
 
-class App extends Component {
+class NavApp extends Component {
   constructor() {
     super()
     this.state = {
@@ -94,4 +94,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default NavApp;
