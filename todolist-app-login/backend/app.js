@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const User = require("./models/User");
 const app = express();
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 3030;
 require("./connection");
 
 app.use(cors())
