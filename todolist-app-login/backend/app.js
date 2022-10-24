@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: false}))
 
 // Yha se JSON me data jaega or React ke Axios me << res.data >> ke through receive hoga
 app.get("/",(req,res)=>{
-    res.json({msg:"Welcome Krishn"})
+    res.json({msg:"Welcome"})
 })
 
 // Login
