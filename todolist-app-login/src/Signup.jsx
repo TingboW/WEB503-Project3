@@ -68,10 +68,17 @@ export const Signup = ()=>{
     )
 }
 
-const inputField = {
+/*const inputField = {
     padding:"5px",
     margin:"10px 0px",
     width: "75%",
+    fontSize: "17px"
+} */
+
+const inputField = {
+    padding:"5px",
+    margin:"10px 0px",
+    width: "100%",
     fontSize: "17px"
 }
 

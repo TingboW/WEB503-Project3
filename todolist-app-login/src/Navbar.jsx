@@ -137,7 +137,7 @@ const link_Item_logout = {
     border: "none",
     borderRadius: "15px",
     position: "absolute",
-    right: "110px"
+    right: "200px"
 }
 const linkItemBtnFwd = {
     right: "0px",
