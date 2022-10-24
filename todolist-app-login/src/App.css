@@ -50,7 +50,7 @@ body {
   text-align: center;
   font-size: 130%;  
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   body {
     min-height: 100vh;
   }
@@ -85,9 +85,9 @@ h1 {
 .container {
   width: 100%;
   height: auto;
-  min-height: 500px;
-  max-width: 500px;
-  min-width: 250px;
+  min-height: 600px;
+  max-width: 1000px;
+  min-width: 550px;
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   background-size: 25px 25px;

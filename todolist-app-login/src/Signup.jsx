@@ -111,5 +111,6 @@ const mainDiv = {
     padding:"18px",
     border:"2px solid black",
     margin:"5%",
-    borderRadius:"15px"
+    borderRadius:"15px",
+    width: "550px"
 }

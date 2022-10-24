@@ -123,7 +123,7 @@ const link_ItemBtn = {
     border: "none",
     borderRadius: "15px",
     position: "absolute",
-    right: "90px"
+    right: "80px"
 }
 
 const link_Item_logout = {
