@@ -4,7 +4,7 @@ const cors = require('cors');
 
 const User = require("./models/User");
 const app = express();
-const port = process.env.PORT || 3030;
+const port = process.env.PORT || 8000;
 require("./connection");
 
 app.use(cors())
@@ -65,6 +65,10 @@ app.post("/signup",async(req,res)=>{
             console.log(err);
         }
     }
+})
+
+app.listen(port,()=>{
+    console.log(`Server is listening at http://localhost:${port}`);
 })
 
 // todo list
