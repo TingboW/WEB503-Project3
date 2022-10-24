@@ -79,9 +79,9 @@ const connectionOptions = {
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb://localhost/todolist", connectionOptions)
-    .then(() => console.log("Connected successfully"))
-    .catch((err) => console.error(err));
+//mongoose.connect("mongodb://localhost/todolist", connectionOptions)
+//    .then(() => console.log("Connected successfully"))
+//    .catch((err) => console.error(err));
 
 app.use("/todos", todoRoutes);
 
