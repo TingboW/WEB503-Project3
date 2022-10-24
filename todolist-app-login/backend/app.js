@@ -67,34 +67,6 @@ app.post("/signup",async(req,res)=>{
     }
 })
 
-app.post("/posttodo",async (req,res)=>{
-    res.json({msg:`data came from react to node successfully`});
-    // here we can see the data coming from the React file
-    console.log(req.body)
-    const todos = req.body.todos;
-    const userid = req.body.userid;
-    try{
-        const getUser = await User.findByIdAndUpdate(userid, {todos: [...todos]})
-        await getUser.save()
-    }catch(err){
-        console.log(err);
-    }
-
-    // it replacing the array with the new array and erase all the previous stored array
-})
-
-app.post("/gettodos",async(req,res)=>{
-    const id = req.body.userid
-
-    const getUser = await User.findById(id)
-    console.log(getUser);
-    res.json(getUser)
-})
-
-app.listen(port,()=>{
-    console.log(`Server is listening at http://localhost:${port}`);
-})
-
 // todo list
 const PORT = 3030;
 //const app = express();

@@ -1,14 +1,14 @@
 import '../App.css';
 
 import React, { useState, useEffect } from "react";
-import todos from "../apis";
+import todos from "./apis";
 import Form from "./Form";
 import Section from "./Section";
 import List from "./List";
 
 const appTitle = "My Todo List";
 
-const TodoList = () => {
+const App = () => {
     const [todoList, setTodoList] = useState([]);
 
     useEffect(() => {
@@ -58,4 +58,4 @@ const TodoList = () => {
     );
 };
 
-export default TodoList;
+export default App;
